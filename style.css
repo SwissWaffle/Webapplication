@@ -8,7 +8,7 @@
 * {
   box-sizing: border-box;
 }
-div .inputs{
+.inputs{
     background-color: #f2f2f2;
     padding: 20px;
 }
