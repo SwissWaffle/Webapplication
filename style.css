@@ -1,0 +1,10 @@
+:root {
+  --main-color: #0066cc;
+  --background: #f9f9f9;
+  --text-color: #333;
+  --font-base: 'Segoe UI', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
