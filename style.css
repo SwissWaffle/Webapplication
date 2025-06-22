@@ -8,12 +8,21 @@
 * {
   box-sizing: border-box;
 }
+
+main{
+  display: grid;
+  grid-template-columns: 1fr, 3fr, 1fr;
+}
 .inputs{
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
 
 input[type=text]{
     width: 100%;
+    
+}
+@media (min-width: 768px){
+
 }
