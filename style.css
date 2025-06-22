@@ -28,6 +28,7 @@ main{
 
 .top{
   grid-area: top;
+  text-align: center;
 }
 
 .inputs{
@@ -39,5 +40,10 @@ main{
 
 input[type=text]{
     width: 100%;
-    
+    padding: 20px;
+}
+
+input[type=submit]{
+  padding: 20px;
+  justify-self: center;
 }
