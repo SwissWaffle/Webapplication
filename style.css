@@ -21,7 +21,7 @@ main{
   grid-area: side;
 }
 
-.header{
+.top{
   grid-area: header;
 }
 
