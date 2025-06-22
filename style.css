@@ -11,18 +11,24 @@
 
 main{
   display: grid;
+  grid-template-columns: repeat(5,1fr);
+  grid-auto-rows: 1rem;
   grid-template-areas:
-                    'side header header header side'
-                    'side inputs inputs inputs side';
+      'left top top top right'
+      'left inputs inputs inputs right';
   grid-gap: 10px;
 }
 
-.side{
-  grid-area: side;
+.left{
+  grid-area: left;
+}
+
+.right{
+  grid-area: right;
 }
 
 .top{
-  grid-area: header;
+  grid-area: top;
 }
 
 .inputs{
