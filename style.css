@@ -11,10 +11,10 @@
 
 main{
   display: grid;
-  grid-template-columns: repeat(5,1fr);
+  grid-template-columns: 1fr, 4fr, 1fr;
   grid-template-areas:
-      'left top top top right'
-      'left inputs inputs inputs right';
+      'left top right'
+      'left inputs right';
   grid-gap: 10px;
 }
 
