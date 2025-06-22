@@ -13,7 +13,7 @@ main{
   display: grid;
   grid-template-columns: 1fr, 3fr, 1fr;
   grid-template-areas:
-                    'side h1 side'
+                    'side header side'
                     'side inputs side';
 }
 
@@ -21,8 +21,8 @@ main{
   grid-area: side;
 }
 
-h1{
-  grid-area: h1;
+.header{
+  grid-area: header;
 }
 
 .inputs{
