@@ -44,7 +44,7 @@ input[type=text]{
     margin: 8px;
 }
 
-input[type=submit]{
+button{
   display:block;
   margin: 8px auto;
 }
